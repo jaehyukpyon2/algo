@@ -11,18 +11,19 @@ public class inf_big_06 {
             Arrays.sort(cloned);
             int min = cloned[0];
             
-            boolean flag = false;
             int idx = -1;
+            int countCheck = 0;
+            
             innerFor: for (int j = 0; j < fruit[i].length; j++) {
                 if (fruit[i][j] == min) {
                     idx = j;
                 }
                 if (fruit[i][j] > min + 1) {
-                    flag = true;
+                    countCheck++;
                 }
             }
             
-            if (flag) {
+            if (countCheck + 1 == fruit[i].length) {
                 map.put(i, idx);
             } else {
                 map.put(i, idx);
@@ -88,7 +89,7 @@ public class inf_big_06 {
         checked = new int[fruit2.length];
         map = new HashMap<>();
         int answer2 = solution(fruit2);
-        System.out.println("answer2: " + answer2); // 48 -> 50(+2)
+        System.out.println("answer2: " + answer2); // 48 
         
         
         int[][] fruit3 = {
@@ -101,13 +102,13 @@ public class inf_big_06 {
         checked = new int[fruit3.length];
         map = new HashMap<>();
         int answer3 = solution(fruit3);
-        System.out.println("answer3: " + answer3); // 32 -> 32
+        System.out.println("answer3: " + answer3); // 32 -> 30 (-2)
         
         
         int[][] fruit4 = {{10, 9, 11}, {15, 20, 25}};
         checked = new int[fruit4.length];
         map = new HashMap<>();
         int answer4 = solution(fruit4);
-        System.out.println("answer4: " + answer4); // 24 -> 26(+2)
+        System.out.println("answer4: " + answer4); // 24
     }
 }
