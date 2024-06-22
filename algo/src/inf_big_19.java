@@ -57,15 +57,15 @@ public class inf_big_19 {
 
     public static void main(String[] args) {
         int[] laser1 = new int[]{30, 20, 25, 15};
-        String[] exercise1 = new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "11:10 2"};
-        System.out.println(solution(laser1, exercise1));
+        String[] enter1 = new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "11:10 2"};
+        System.out.println(solution(laser1, enter1));
 
         int[] laser2 = new int[]{30, 20, 25, 15};
-        String[] exercise2 = new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "15:10 0", "15:20 3", "15:22 1", "15:23 0", "15:25 0"};
-        System.out.println(solution(laser2, exercise2));
+        String[] enter2 = new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "15:10 0", "15:20 3", "15:22 1", "15:23 0", "15:25 0"};
+        System.out.println(solution(laser2, enter2));
 
         int[] laser3 = new int[]{30, 20, 25, 15};
-        String[] exercise3 = {"10:20 1", "10:40 1", "11:00 1", "11:20 1", "11:40 1"};
-        System.out.println(solution(laser3, exercise3));
+        String[] enter3 = {"10:20 1", "10:40 1", "11:00 1", "11:20 1", "11:40 1"};
+        System.out.println(solution(laser3, enter3));
     }
 }
