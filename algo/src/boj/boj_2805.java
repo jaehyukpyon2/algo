@@ -1,3 +1,5 @@
+package boj;
+
 import java.util.*;
 import java.io.*;
 

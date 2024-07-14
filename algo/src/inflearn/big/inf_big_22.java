@@ -1,5 +1,6 @@
+package inflearn.big;
+
 import java.util.*;
-import java.util.stream.*;
 
 public class inf_big_22 {
     public static void calculate(ArrayList<int[]> arr, int num) {

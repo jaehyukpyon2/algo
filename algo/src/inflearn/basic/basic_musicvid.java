@@ -1,3 +1,5 @@
+package inflearn.basic;
+
 import java.util.*;
 import java.io.*;
 

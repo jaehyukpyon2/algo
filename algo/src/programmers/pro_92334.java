@@ -1,5 +1,4 @@
-import java.util.*;
-import java.util.stream.*;
+package programmers;
 
 public class pro_92334 {
     public static void main(String[] args) {

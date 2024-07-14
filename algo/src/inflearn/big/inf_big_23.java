@@ -1,5 +1,6 @@
+package inflearn.big;
+
 import java.util.*;
-import java.util.stream.*;
 
 public class inf_big_23 {
     public static int[] solution(int[] nums) {

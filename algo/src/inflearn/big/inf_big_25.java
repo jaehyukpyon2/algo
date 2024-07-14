@@ -1,5 +1,6 @@
+package inflearn.big;
+
 import java.util.*;
-import java.util.stream.*;
 
 class inf_big_25 {
     

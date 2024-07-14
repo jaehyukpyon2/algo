@@ -1,3 +1,5 @@
+package inflearn.big;
+
 import java.util.*;
 
 class inf_big_01 {
